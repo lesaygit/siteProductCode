@@ -1,0 +1,44 @@
+{
+    "name": "#produtos e códigos 🛒",
+    "short_name": "#productCode",
+    "description": "aplicativo de pesquisa de código YGO dev :)",
+    "background_color": "#2B2B2B",
+    "theme_color": "#F0DB4F",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "pt-BR",
+    "icons": [
+        {
+            "src": "./img/icon_512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon_192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon_180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon_96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon_32.ico",
+            "sizes": "32x32",
+            "type": "image/ico"
+        },
+        {
+            "src": "./img/favicon.svg",
+            "sizes": "16x16",
+            "type": "image/svg"
+        }
+    ]
+}

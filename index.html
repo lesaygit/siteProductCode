@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>productCode</title>
+    <link rel="manifest" href="./manifest.json">
+    <link rel="icon" href="./img/favicon.svg" type="image/svg+xml">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #myInput {
+
+            width: 100%;
+            font-size: 16px;
+            padding: 12px 20px 12px 40px;
+            border: 1px solid #ddd;
+            margin-bottom: 12px;
+        }
+
+        #myUL {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #myUL li {
+            border: 1px solid #ddd;
+            margin-top: -1px;
+            /* Prevent double borders */
+            background-color: #4355f5;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            color: black;
+            display: block;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #fff;
+
+        }
+
+        #myUL li:hover {
+            background-color: #0918eb;
+            cursor: pointer;
+        }
+
+        h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #0918eb;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>produtos e códigos 🛒</h1>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="🔍 procurar... " title="digite um nome de produto">
+    <ul id="myUL">
+        <li>135997:BANDEIRA TRIANG EM OXFORD 40X60CM AMARELA</li>
+        <li>36072: BANDEIRA TRIANG EM OXFORD 40X60CM ROYAL</li>
+        <li>36071: BANDEIRA TRIANG EM OXFORD 40X60CM VERMELHA</li>
+        <li>27444: GAS GLP 45KG</li>
+        <li>37452: UC BOBINA PDV 80X80 48G Cl 6UN</li>
+        <li>26193: UC BOBINA TERM PONTO 57MMX300M</li>
+        <li>31251: UC BOBINA TERM POS 57MMX22M</li>
+        <li>35722: UC CART CLUBE NOVO A4 A6 VERT C1000 SPLASH</li>
+        <li>36409: UC CARTAZ CLUB NOVO A4A5 VERT C1000</li>
+        <li>36408: UC CARTAZ CLUBE NOVO A2 DUPLEX 0250</li>
+        <li>36412: UC CARTAZ CLUBE NOVO A3 COMBO C1000</li>
+        <li>35724: UC CARTAZ CLUBE NOVO A3 VERT C1000</li>
+        <li>36410: UC CARTAZ CLUBE NOVO A4 COMBO C1000</li>
+        <li>35723: UC CARTAZ CLUBE NOVO A4 VERT C1000</li>
+        <li>35730: UC CARTAZ OFERTA A3 VERT DUPLEX C500</li>
+        <li>35725: UC CARTAZ OFERTA A2 DUPLEX 0500</li>
+        <li>35715: UC CARTAZ OFERTA A3 HORIZ C1000</li>
+        <li>35713: UC CARTAZ OFERTA A4 A5 HORIZ C1000</li>
+        <li>35710: UC CARTAZ OFERTA A4 A5 VERT C1000</li>
+        <li>35727: UC CARTAZ OFERTA A4 A5 VERT C500 DUPLEX</li>
+        <li>35709: UC CARTAZ OFERTA A4 A6 VERT C1000</li>
+        <li>35728: UC CARTAZ OFERTA A4 A6 VERT 0500 DUPLEX</li>
+        <li>35714: UC CARTAZ OFERTA A4 HORIZ 01000</li>
+        <li>35711: UC CARTAZ OFERTA A4 VERT C1000</li>
+        <li>35729: UC CARTAZ OFERTA A4 VERT DUPL C500</li>
+        <li>45712: UC CARTAZ PRECI A4 A5 VER DUP C1000</li>
+        <li>35720: UC CARTAZ PRECINHO A3 HORIZ C1000</li>
+        <li>35718: UC CARTAZ PRECINHO A3 VERT C1000</li>
+        <li>45711: UC CARTAZ PRECINHO A3 VERT DUP C500</li>
+        <li>35716: UC CARTAZ PRECINHO A4 A5 VERT C1000</li>
+        <li>35719: UC CARTAZ PRECINHO A4 HORIZ 01000</li>
+        <li>35717: UC CARTAZ PRECINHO A4 VERT C1000</li>
+        <li>46321: UC DESENGR BECK CLEANGREASE PL 4X5L</li>
+        <li>20993: UC DESINF BACTER BECKER FLORAL 5L FLORAL</li>
+        <li>46338: UC DESINF CLORO BECKER SPUMA 4X5L</li>
+        <li>46323: UC DESINF DESNG PLATER PL BECK 4X5L</li>
+        <li>46339: UC DESINF HORTI BECKER CLOREX 4X5L</li>
+        <li>46322: UC DESINF LV BECKER 4X5L</li>
+        <li>20996: UC DESINF PO DECLOR FVL BECKER 3KG</li>
+        <li>24267: UC DET LIO BECKPLATER BECKER BB5L</li>
+        <li>38866: UC ETIQ C ADES BARCODE 58KHZ STD</li>
+        <li>28261: UC ETIQ COUCHE PREVENCAO 30X30X17M AM</li>
+        <li>28264: UC ETIQ COUCHE PREVENCAO 30X30X17M BR</li>
+        <li>28262: UC ETIQ COUCHE RED PERSON 33X33X18M CAFE NOVO</li>
+        <li>35267: UC ETIQ REB PREGO 30X35X17M C 30UN</li>
+        <li>38867: UC ETIQ RIGIDA PENC 58KHZ CZ CL AM</li>
+        <li>20974: UC ETIQ TERM BALANCA PIC 40X40X30M THI</li>
+        <li>26157: UC ETIQ TERM BALANCA PIC 60X80X30M</li>
+        <li>32279: UC ETIQUETA GONDOLA 5 ADES 80X38X45 GAP CEN</li>
+        <li>32280: UC ETIQUETA GONDOLA 5 ADES 80X70X45 GAP CEN</li>
+        <li>30616: UC ETIQUETA INVENTARIO 100X35X45 C 24</li>
+        <li>35091: UC FIBRA LIMPEZA GERAL VD 102X230</li>
+        <li>35092: UC FIBRA LIMPEZA LEVE BR 102X230</li>
+        <li>46000: UC FITA ADES TRANSP 45X300M</li>
+        <li>39190: UC KIT CANETA POSTER C 6UN</li>
+        <li>38870: UC LACO PROTETOR C PINO 180MMX7,2</li>
+        <li>21302: UC LACRE DE SEG PLAST P MALOT 100UN AM</li>
+        <li>39191: UC KIT ESCRITA C5 PINCEIS</li>
+        <li>38868: UC LACO PROTETOR 720MM P PNEU DIV</li>
+        <li>26680: UC LACRE SEG C ARAME P MALOTE 100UN AM</li>
+        <li>46336: UC LIMP MULT CLASS BECKER 4X5L</li>
+        <li>21019: UC LONA CARTAZISTA</li>
+        <li>33452: UC LUBRIFICANTE BECKER LUB CX6 2L</li>
+        <li>35244: UC LUVA VINIL S PO MEDIX G CX1000UN</li>
+        <li>35245: UC LUVA VINIL S PO MEDIX M CX1000UN</li>
+        <li>35242: UC LUVA VINIL S PO VABEN G CX1000UN</li>
+        <li>35250: UC MASCARA DESC CX 2000UN MEDIX</li>
+        <li>42297: UC PAN MULTI BOB BR C600 28X50X300M</li>
+        <li>21005: UC PAP HIG BECKER KAMI 8X500M</li>
+        <li>22129: UC PINCEIS CARTAZISTA KIT C 3UN</li>
+        <li>38872: UC PROTETOR DE GARRAFAS AM RF</li>
+        <li>39189: UC REATIVADOR ESCRITA</li>
+        <li>39188: UC REMOVEDOR ALCOLOR</li>
+        <li>20977: UC RIBBON CERA 110MMX74M MAST</li>
+        <li>46332: UC SAB ANTISSEP CLASSIC BECKER 4X5L</li>
+        <li>20994: UC SAB CR BECKSOAP BECKER 5L ERVA DOCE</li>
+        <li>35265: UC SAC LIX TRANSP 80X95X0,3 150L C100</li>
+        <li>26151: UC SAC LIXO TRAN 75X90X3 C100 100L</li>
+        <li>42388: UC SACO LIXO TRANSP 40L FD 1000UN</li>
+        <li>20830: UC SACOLA LACRA VOL 50X70X0,24 C250</li>
+        <li>26676: UC SERRA FITA 5 8 6KA 4 3 15 C5UN DIV</li>
+        <li>38873: UC SPIDER WEB 40CM</li>
+        <li>33158: UC TALAO CARGA E DESCARGA 50UN</li>
+        <li>21087: UC TINTA ALCOLO CARTAZISTA PT 500ML</li>
+        <li>22128: UC TINTA ALCOLO CARTAZISTA VM 500ML</li>
+        <li>21848: UD PEDRA AFIAR FACA DIV</li>
+
+    </ul>
+
+
+    <script>
+        function myFunction() {
+            var input, filter, ul, li, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                txtValue = li[i].textContent;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+
+    </script>
+     <script src="js/script.js"></script>
+    
+
+</body>
+
+</html>
